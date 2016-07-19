@@ -7,5 +7,6 @@
 ```
 	> npm install
 	> npm start
-	> http://localhost:8080/
+	> http://localhost:8080/  
+	> use this backend: https://github.com/mderfler/node-server-redux-book-list
 ```
