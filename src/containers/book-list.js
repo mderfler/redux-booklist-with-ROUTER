@@ -32,7 +32,7 @@ class BookList extends Component {
         <h6>Click on a title to edit</h6>
         {this.renderList()}
         <br/>
-        <Link to={"book/new"} className="btn btn-success btn-sm">Create new book</Link>
+        <Link to="book/new" className="btn btn-success btn-sm">Create new book</Link>
       </div>
     )
   }

@@ -33,7 +33,7 @@ class BookNew extends Component {
         <input type="text" placeholder="Title" value={this.state.title}
           onChange={event => this.onInputChange(event.target.value)}
          />
-        <input type="submit" value="Create Book" />
+        <input type="submit" value="Create Book" className="btn btn-primary btn-sm updateBox" />
       </form>
       <Link to="/" className="btn btn-warning btn-sm">Index</Link>
       </div>
